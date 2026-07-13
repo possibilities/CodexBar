@@ -51,5 +51,5 @@ Add a pure/injectable orchestration seam plus fake-executable coverage; never ru
 - [ ] Focused macOS/Linux tests, `make test`, and `make check` pass using only fakes and stubs with no live provider, browser, Keychain, or credential access.
 
 ## Done summary
-
+Added a cards-only claude-swap multi-account coordinator (CLIClaudeSwapCards) that concurrently fetches ambient Claude output and the claude-swap account list, applies accountCount>1 precedence to replace ambient/token Claude cards in active-first order, and falls back to ambient output plus a distinct sanitized failure footer on blank path or adapter failure. Extended CLICardModel/brief rows with active-state and sanitized account-problem text, added mirrored macOS/Linux coverage, and updated CLI help and docs.
 ## Evidence
