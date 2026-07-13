@@ -1,0 +1,16 @@
+{
+  "branch_name": "main",
+  "bundles": [],
+  "created_at": "2026-07-13T21:18:42.801000Z",
+  "depends_on_epics": [],
+  "id": "fn-1-add-cswap-cards-support",
+  "last_validated_at": null,
+  "primary_repo": "/Volumes/Scratch/src/possibilities--CodexBar",
+  "snippets": [],
+  "status": "open",
+  "title": "Add cswap cards support",
+  "touched_repos": [
+    "/Volumes/Scratch/src/possibilities--CodexBar"
+  ],
+  "updated_at": "2026-07-13T21:18:42.801000Z"
+}
