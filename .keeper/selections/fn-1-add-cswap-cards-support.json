@@ -1,0 +1,29 @@
+{
+  "audit_policy": {
+    "flagged_task_ids": [],
+    "reason": null,
+    "status": "applied"
+  },
+  "cells": [
+    {
+      "confidence": 0.93,
+      "label_source": "heuristic-guided",
+      "model": "opus",
+      "rationale": "Concurrent result replacement, failure isolation, cancellation, and terminal-safety create subtle cross-file correctness invariants that justify opus at xhigh.",
+      "task_id": "fn-1-add-cswap-cards-support.1",
+      "tier": "xhigh"
+    }
+  ],
+  "config_hash": "7e253528b11babcf4d57c49e9916cae562644b764da5453fbf3ac160d205fce3",
+  "created_at": "2026-07-13T21:19:12.502000Z",
+  "epic_id": "fn-1-add-cswap-cards-support",
+  "input_hash": "15e4e95ba12c8fd5e4edfd94bd37bb70a60af4887932d5885989ce960abcee7d",
+  "outcome": "completed",
+  "schema_version": 1,
+  "selector": {
+    "harness": "subagent",
+    "model": "plan:model-selector"
+  },
+  "shuffle_seed": 367323483,
+  "verdict_raw": "{\"cells\":[{\"task_id\":\"fn-1-add-cswap-cards-support.1\",\"tier\":\"xhigh\",\"model\":\"opus\",\"rationale\":\"Concurrent result replacement, failure isolation, cancellation, and terminal-safety create subtle cross-file correctness invariants that justify opus at xhigh.\",\"confidence\":0.93}]}\n"
+}
