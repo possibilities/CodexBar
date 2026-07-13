@@ -2,6 +2,9 @@
 
 ## 0.42.1 — Unreleased
 
+### Added
+- CLI: show opt-in claude-swap multi-account usage in full and brief terminal cards while preserving explicit account/source overrides and ambient fallback diagnostics.
+
 ### Changed
 - Settings: split provider pane "Settings" sections into "Menu bar" and "Connection" so metric pickers and auth/cookie/source controls are grouped by topic.
 
